@@ -1,4 +1,4 @@
-### Hi there 👋
+## 사일로랩 기술개발팀입니다 ⚙
 
 <!--
 **SILO-GIGE/SILO-GIGE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
