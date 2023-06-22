@@ -1,0 +1,50 @@
+깃허브 VScode 터미널 명령어
+
+
+
+
+---------------------------------------------------------
+▶브랜치확인하기
+git branch
+' * ' 붙어있는 것이 현재 branch이다.
+
+▶새 branch만들기
+git branch [브랜치이름]
+
+▶다른branch로 이동하기
+git checkout [이동할브랜치이름]
+
+▶branch삭제하기
+git branch -d [브랜치이름]
+삭제하려면 이동하고 해야함.
+
+▶현재 브랜치의 commit히스토리보기
+git log --oneline --all --graph
+
+▶전체 브랜치의 commit히스토리보기
+git log --branches --decorate
+
+▶브랜치 병합하기
+git merge [병합할브랜치이름]
+
+-------------------------------------------------------
+
+▶원격저장소추가하기
+git remote add [이름] [주소]
+
+▶원하는원격저장소에 추가하기
+git push [remote] [브랜치이름]
+
+▶원하는원격저장소에 추가하기
+git push -u [브랜치이름] master
+
+▶만든 파일 또는 폴더  원격저장소에 올리기
+git add [파일이름]              /  전체올릴때 git add . 
+git commit -m "메세지"
+git push -u [브랜치이름] master
+
+▶원격저장소파일 내려받기
+git pull [브랜치이름] master
+
+▶원격저장소 확인하기
+git remote -v
