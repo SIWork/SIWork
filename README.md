@@ -1,4 +1,4 @@
-## silolab_ksh,kyj ⚙
+## silolab_ksh ⚙
 
 자료정리 PPT파일 등 포함.
 
